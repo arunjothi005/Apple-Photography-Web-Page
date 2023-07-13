@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
+* {
+    padding: 0%;
+    margin: 0px;
+}
+
+
+/* color */
+
+.white {
+    color: rgb(212, 212, 212);
+}
+
+.width1440 {
+    width: 1440px;
+}
+
+body {
+    background-color: #e2e2e2;
+}
+
+/* navbanner */
+
+.navbanner {
+    height:1000px;
+    display: grid;
+    /* grid-column: 1/3; */
+    grid-template-rows: 0.5fr 5fr 3fr 3fr;
+    background-image: url(../images/navbanner/BG.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    /* background-color: rgba(255, 255, 255, 0.249); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 30px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navigation>a {
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navigation>a:hover {
+    font-size: 20px;
+}
+
+.navigation>button {
+    width: 98px;
+    height: 39px;
+    border-radius: 15px;
+    border: 0px;
+    box-shadow: 0px 4px 4px rgba(241, 232, 232, 0.24);
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navigation>.signup {
+    color: #dddddd;
+    background-color: #CAE7CF;
+}
+
+.navigation>.signin {
+    color: #ffffff;
+    background-color: #a7a7a7;
+}
+
+.banner>h3 {
+    font-size: 24px;
+    margin: 10px;
+    color: white;
+}
+
+.banner>p {
+    width: 572px;
+    font-size: 16px;
+    margin: 10px;
+    line-height: 28px;
+    font-family: 'Libre Baskerville', sans-serif;
+    color: white;
+    align-content: center;
+    
+}
+
+.banner>a {
+    position: absolute;
+    margin: 10px;
+    text-decoration: underline;
+    color: rgb(255, 249, 249);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+.banner>a>i {
+    position: relative;
+    top: 2px;
+    left: 9px;
+}
+
